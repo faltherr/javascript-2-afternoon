@@ -30,7 +30,14 @@ alert(me.name)
 */
 
 //Code here
-
+var favoriteThings = {
+  band: 'Hot CPs',
+  food: 'pizza',
+  person: 'HM',
+  book: 'Monkey Wrench Gang', 
+  movie: 'Star Wars ',
+  holiday: 'New Years'
+}
 
 
 /*
@@ -38,7 +45,8 @@ alert(me.name)
 */
 
 //Code here
-
+favoriteThings.car = 'Truck'
+favoriteThings.brand = 'Mammut'
 
 
 /*
@@ -46,8 +54,8 @@ alert(me.name)
 */
 
 //Code here
-
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -60,15 +68,17 @@ alert(me.name)
 */
 
 //Code here
-
-
+var backPack = {};
+var item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'black'
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack)
 
 
 /*
@@ -78,7 +88,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -101,8 +111,8 @@ var user2 = {
 */
 
 //Code Here
-
-
+user2.email = 'tyler.mcginnis@devmounta.in'
+user2.name = 'Tyler S. McGinnis'
 
 
 
